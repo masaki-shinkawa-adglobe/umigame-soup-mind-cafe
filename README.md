@@ -12,3 +12,11 @@ graph TD
     F -->|次のゲームを選択| D
     F -->|ゲーム終了| A
 ```
+
+|画面|URLパターン|
+|-|-|
+|ホーム画面|/|
+|ゲームルーム作成画面|/rooms/create|
+|ゲームルーム参加画面|/rooms/join|
+|ゲームプレイ画面|/rooms/play/:roomId|
+|スコアボード・結果画面|/rooms/results/:roomId|
